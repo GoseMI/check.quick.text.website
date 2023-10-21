@@ -1,0 +1,63 @@
+* {
+    background-color: #9d9dc7;
+}
+#text{
+    height: 400px;
+    width: 100%;
+    
+}
+.txtbox{
+    background-color: gray;
+}
+#submitbutton{
+    height: 40px;
+    width: 120px;
+    background-color: yellow;
+}
+#deletebutton{
+    height: 40px;
+    width: 80px;
+    background-color: red;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #333333;
+}
+#selectmenu{
+    width: 300px;
+    
+    border-color: black;
+    /* background-color: #5c5c88; */
+    margin-bottom: 15px;
+}
+.makered{
+    color: red;
+    /* background-color: #777777; */
+}
+.makegreen{
+    color: green;
+    /* background-color: #777777; */
+}
+.makeblue{
+    color: blue;
+    /* background-color: #777777; */
+}
+.logo{
+    margin: 0px;
+    /* background-color: #777777; */
+    width: 100%;
+}
+.note{
+    color: red;
+}
+.customword{
+    background-color: #777777;
+}
+#paragraf{
+    background-color: black;
+    color: red;
+}
+#result{
+    width: 90%;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>text check quick</title>
+        <link rel="stylesheet" href = "index.css">
+        <link rel = "icon" href="textCheckQuickLogo.png">
+        <meta name = "keywords" content = "website, word, word checker, keyword, expresion, check, checking, quick check, counter, text">
+        <meta name = "description" content="website that checks keywords and expresion in a text">
+    </head>
+    <body>
+        <div class = "logo">
+            <h1 class = "makered">text </h1>
+            <h1 class = "makeblue">check</h1>
+            <h1 class = "makegreen">quick</h1>
+        </div>
+        <br>
+        <h3>input the text</h3>
+       <textarea id = "text" class = "txtbox"></textarea><br>
+       <div id = "selectmenu">
+            <h4>input a key expresion</h4>
+            <input type = "text" id ="customword"><br>
+            <input type = "checkbox" id ="ignoreupperleters" > <label for = "ignoreupperleters">ignore letters case</label><br>
+       </div>
+       <button id = "submitbutton">submit</button>
+       <button id = "deletebutton">delete</button>
+       <br>
+       <h2 class = "title">result</h2>
+       <hr>
+        <h4 id = "result"></h4>
+       <hr>
+       <h3 id = "aparitions"></h3>
+       <p id = "paragraf">note: the text will remove the '>' and '<' simbols to avoid any errors or bugs or introducing HTML code from the user into the site code. <br> 
+       the site works based on introducing your input into a html element and having potential html code in it can disrupt the functioning of the site</p>
+    </body>
+    <script src = "index.js"></script>
+</html>
